@@ -4,16 +4,19 @@ Medical Appointment Schedule é um simples web service para auxiliar no agendame
 
 ## Uso
 Pré-requisitos:
-- Java 17
+- [Java 17](https://www.oracle.com/java/technologies/downloads/#java17)
 
 Abra seu terminal e insira os seguintes comandos:
 
 ```bash
-# Para clonar o projeto
+# Clonar o projeto
 git clone github.com/AndCandido/Medical-Appointment-Schedule.git
 
-#Para executar o projeto
-./mvnw spring-boot:run
+# Entrar no diretório da aplicação
+cd Medical-Appointment-Schedule
+
+# Iniciar o projeto
+./mvnw clean spring-boot:run
 ```
 
 Assim o servidor estará disponível na porta ```8008```
