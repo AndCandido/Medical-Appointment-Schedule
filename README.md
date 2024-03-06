@@ -16,7 +16,7 @@ git clone github.com/AndCandido/Medical-Appointment-Schedule.git
 cd Medical-Appointment-Schedule
 
 # Iniciar o projeto
-./mvnw clean spring-boot:run
+mvnw clean spring-boot:run
 ```
 
 Assim o servidor estará disponível na porta ```8008```
